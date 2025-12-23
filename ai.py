@@ -43,7 +43,7 @@ class colors:
 # Configuration
 CONFIG_FILE = "byleeosworm_config.json"
 PROMPT_FILE = "system-prompt.txt"  # 🧩 Local system prompt file
-DEFAULT_API_KEY = "YOUR_API_KEY_HERE"
+DEFAULT_API_KEY = "YOUR_API_KEY"
 DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
 DEFAULT_MODEL = "deepseek/deepseek-chat-v3-0324"
 SITE_URL = "www.byleeos.my.id"
@@ -76,7 +76,7 @@ def banner():
         print(f"{colors.bright_red}BYLEEOSWORM{colors.reset}")
     print(f"{colors.bright_red}BYLEEOSWORM CLI{colors.reset}")
     print(f"{colors.bright_cyan}OpenRouter API | {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}{colors.reset}")
-    print(f"{colors.bright_cyan}Made With Love <3 {colors.bright_red}t.me/xsocietyforums {colors.reset}- {colors.bright_red}t.me/astraeoul\n")
+    print(f"{colors.bright_cyan}Made With Love <3 {colors.bright_red}t.me/rrey1st {colors.reset}- {colors.bright_red}GH - @primrosereyy\n")
 
 def clear_screen():
     os.system("cls" if platform.system() == "Windows" else "clear")
@@ -316,4 +316,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
